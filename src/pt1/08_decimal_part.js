@@ -1,6 +1,6 @@
-import { prompt } from "../utils/stdin.js";
+import { prompt } from '../utils/stdin.js';
 
-let number = parseFloat(await prompt("Put a number: "));
+let number = parseFloat(await prompt('Put a number: '));
 
 let decimalPart = number - Math.floor(number);
 

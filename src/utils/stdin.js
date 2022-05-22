@@ -1,5 +1,5 @@
-import * as readline from "readline";
-import * as process from "process";
+import * as readline from 'readline';
+import * as process from 'process';
 
 /**
  *

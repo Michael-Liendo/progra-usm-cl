@@ -1,6 +1,6 @@
-import { prompt } from "../utils/stdin.js";
+import { prompt } from '../utils/stdin.js';
 
-let year = parseInt(await prompt("Put a year: "));
+let year = parseInt(await prompt('Put a year: '));
 
 const leap = new Date(year, 1, 29).getDate() === 29;
 if (leap) {
